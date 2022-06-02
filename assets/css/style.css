@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #555;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+  color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+} 
+
+input, textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2;
+}
+
+h1 {
+  font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;
+}
+
+a, a:hover {
+  outline: none;
+  text-decoration: none;
+  color: #749daf;
+}
+
+ul {
+  margin: 2px 0 22px 17px;
+}
+
+ul li {
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1em;
+}
+
+.header {
+  background-color: #749daf;
+  height: 140px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 680px;
+  padding-bottom: 40px;
+}
+
+.logo h1 {
+  font: bolder 300% 'century gothic', arial, sans-serif;
+  margin: 0 0 0 0px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+  margin: -3px 0px -4px -48px;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.menubar {
+  width: 900px;
+  height: 46px;
+}
+
+ul.menu {
+  float: right;
+}
+
+ul.menu li {
+  float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+  font: normal 117% 'trebuchet ms', sans-serif;
+  display: block;
+  height: 10px;
+  padding: 0 40px 40px 19px;
+  color: #caefff;
+  text-decoration: none;
+}
+
+.site_content {
+  width: 880px;
+  overflow:hidden;
+  margin: 20px auto 0 auto;
+  background-color: white;
+}
+
+.sidebar_container {
+  float: right;
+  width: 224px;
+}
+
+.sidebar {
+  float: right;
+  width: 196px;
+  padding: 5%;
+  margin: 0 0 16px 0;
+  border: solid 1px #f2f2f2;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.btn {
+  padding: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sidebar h2 {
+  color: #749daf;
+}
+
+.lables_passreg_text {
+  font-size: 0.7em;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.sidebar_men {
+  height: 120%;
+  width: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #749daf;
+}
+
+.sidebar_men div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+.foto {
+  width: 164px;
+  height: 136px;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  bottom: 20px;
+}
+
+.sidebar_ban {
+  height: 120%;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #749daf;
+}
+
+.sidebar_ban div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 4px 0 0px 0;
+  text-align: center;
+  background-color: #749daf;
+  color: #326368;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+  margin-top: 450px;
+}
+
+.footer a {
+  color: #326368;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer p {
+  padding: 0 0 10px 0;
+}
